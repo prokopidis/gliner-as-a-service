@@ -18,6 +18,7 @@ gliner = "^0.2.19"
 transformers = "^4.51.3"
 torchvision = "^0.22.0"
 flower = "^2.0.1"
+ilsp-nlp-commons = {git = "https://gitlab.com/ilsp-nlp/ilsp-nlp-commons.git", rev = "0.1.1"}
 
 [tool.poetry.scripts]
 gliner = 'app.main:main'
