@@ -18,7 +18,7 @@ WORKDIR /code
 
 COPY ./app /code/app
 
-USER 1001
+USER root
 
 # $ docker build . -f Dockerfile.gliner -t gliner-service:latest
 
